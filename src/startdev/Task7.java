@@ -5,6 +5,8 @@
  */
 package startdev;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
@@ -13,10 +15,13 @@ public class Task7 {
     public void run(){
         System.out.println("----- Задача 7 ------");
         System.out.println("Введите строку");
+        Scanner scanner = new Scanner(System.in);
         // посчитайте сколько раз в строке встречается введенная вами буква
+        int ent = 0;
         System.out.println("Введите букву: ");
-        String letter = ?;
-        int n = 0;
+        int entLetter = scanner.nextInt();
+        
+       
         
         System.out.println("Буква \""+letter+"\" встречается в тексте "+ n + "раз");
         System.out.println("");

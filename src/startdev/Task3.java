@@ -15,7 +15,7 @@ public class Task3 {
     public void run(){
         System.out.println("----- Задача 3 ------");
         System.out.println("Создаем одномерный массив  из 10 ячеек типа int, \nзаполняем его случайными числами и выводим \nего значения в цикле");
-        int n = 50;
+        int n = 10;
         int myArr[] = new int [n];
         Random random = new Random();
         for (int i = 0; i < n; i++) {
@@ -25,11 +25,17 @@ public class Task3 {
             System.out.printf ("%-3d", myArr[i]);
         }    
            System.out.println("");
-            
-        }
-//        System.out.println("Сумма всех чисел массива: ");
-//        System.out.println("min = ");
-//        System.out.println("max = ");
-//        System.out.println("----- конец задачи 3 ------");
+           System.out.println("вывести сумму значений массива");
+           int sum = 0;
+           for(int i = 0; i < myArr.length; i++){
+               sum = sum + myArr[i];
+           }        
+           
+        System.out.println("Сумма всех чисел массива: " + sum );
+        System.out.println("----- конец задачи 3 ------");
     }
+    
+
+        
+}   
 

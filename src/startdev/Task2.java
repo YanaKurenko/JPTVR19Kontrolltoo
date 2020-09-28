@@ -26,7 +26,7 @@ public class Task2 {
             System.out.println("Ты проиграл");
         }
         
-        System.out.println("Было загадано: "   );
+        System.out.println("Было загадано: " + numRandom );
         
         
         
